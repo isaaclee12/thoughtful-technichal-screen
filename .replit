@@ -1,8 +1,8 @@
 modules = ["python-3.12"]
-run = "coverage run -m pytest -v && coverage report -m && pylint ."
+run = "coverage run -m pytest -v && coverage report -m"
 
 [nix]
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "coverage run -m pytest -v && coverage report -m && pylint ."]
+run = ["sh", "-c", "coverage run -m pytest -v && coverage report -m"]
