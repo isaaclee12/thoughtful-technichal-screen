@@ -1,4 +1,3 @@
-# pylint: disable=too-many-arguments, too-many-positional-arguments, missing-function-docstring
 """
 Tests for the sort function
 """

@@ -1,4 +1,3 @@
-# pylint: disable=inconsistent-return-statements
 """
 The sort function
 """
