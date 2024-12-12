@@ -1,12 +1,12 @@
 # thoughtful-technichal-screen
 The FDE Technical Screen for Thoughtful AI
 
-### Running Instructions:
+### [Replit Link](https://replit.com/join/kfermkwjac-isaaclee121)
+
+### Manual Running Instructions:
 - Clone the github repository
 - Run `pip install -r requirements.txt` in the terminal
-- Run `coverage run -m pytest -v && coverage report -m` to run all of the tests for the sort files
-- Run `pylint .` to test code quality/formatting
-- TIP: Run both commands at once using `coverage run -m pytest -v && coverage report -m && pylint .` to get all results at once.
+- Run `coverage run -m pytest -v && coverage report -m && pylint .` to run all of the tests for the sort files & code quality/formatting
 
 ### Objective
 
