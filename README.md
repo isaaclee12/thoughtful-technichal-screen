@@ -1,6 +1,13 @@
 # thoughtful-technichal-screen
 The FDE Technical Screen for Thoughtful AI
 
+### Running Instructions:
+- Clone the github repository
+- Run `pip install -r requirements.txt` in the terminal
+- Run `coverage run -m pytest -v && coverage report -m` to run all of the tests for the sort files
+- Run `pylint .` to test code quality/formatting
+- TIP: Run both commands at once using `coverage run -m pytest -v && coverage report -m && pylint .` to get all results at once.
+
 ### Objective
 
 Imagine you work in Thoughtful’s robotic automation factory, and your objective is to write a function for one of its robotic arms that will dispatch the packages to the correct stack according to their volume and mass.
@@ -31,6 +38,6 @@ Implement the function **`sort(width, height, length, mass)`** (units are centim
     - **Option 2 (Preferred)**: Host your solution on an online IDE like [Repl.it](http://repl.it/) for immediate code review. Ensure the link is accessible for direct execution.
 4. **Evaluation Criteria**: Submissions will be assessed on:
     - Correct sorting logic.
-    - Code quality.
+    - Code quality. **(Note for my submission: I wasn't sure what qualifies as "code quality" as that term can be somewhat subjective, so I included two different versions of the functions to demonstrate that I am capable of making my code very compact or extremely readable.)**
     - Handling edge cases and inputs.
     - Test coverage.
